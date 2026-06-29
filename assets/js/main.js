@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   var toggle = document.querySelector(".nav-toggle");
   var menu = document.querySelector(".nav-menu");
 
@@ -121,7 +121,7 @@
         data.get("message") || ""
       ].join("\n");
       var subject = encodeURIComponent("Painting estimate request");
-      window.location.href = "mailto:Myjcprofessionalpainting@gmail.com?subject=" + subject + "&body=" + encodeURIComponent(body);
+      window.location.href = "mailto:Jcprofessionalpainting@gmail.com?subject=" + subject + "&body=" + encodeURIComponent(body);
       var status = form.querySelector(".form-status");
       if (status) status.textContent = "Your email app should open with the project details.";
     });
