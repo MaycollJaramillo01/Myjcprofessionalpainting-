@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/((?!maintenance.html|logo_cluster.webp).*)",
+      "destination": "/maintenance.html",
+      "permanent": false
+    }
+  ]
+}
